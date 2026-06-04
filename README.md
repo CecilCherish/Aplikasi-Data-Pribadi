@@ -9,6 +9,16 @@ NIK (PK, angka), Nama Lengkap, Jenis Kelamin (L/P), Tanggal Lahir, Umur (auto), 
 Fitur: 
 Search (NIK & Nama), Add, Edit, Detail, Delete (dengan konfirmasi), validasi form.
 
+## Live Demo
+
+Aplikasi Data Pribadi dapat diakses melalui:
+
+🔗 [Demo Aplikasi Data Pribadi](https://cecilcherish.github.io/Aplikasi-Data-Pribadi/)
+
+## Source Code
+
+💻 [Repository GitHub](https://github.com/CecilCherish/Aplikasi-Data-Pribadi)
+
 ## Catatan
 
 Back End **Java (Spring/Hibernate)** atau **C# (ASP.NET)**. Versi ini **hanya frontend** dengan localStorage — cocok jika test fokus pada UI/logika CRUD. Jika backend + database sungguhan, perlu membuat REST API terpisah (Spring Boot / ASP.NET Web API + MySQL/SQL Server) dan mengganti fungsi `loadAll/saveAll` di `app.js` dengan AJAX (`$.ajax`) ke endpoint API.
@@ -16,14 +26,6 @@ Back End **Java (Spring/Hibernate)** atau **C# (ASP.NET)**. Versi ini **hanya fr
 ## Menjalankan Lokal
 
 Cukup buka `index.html` di browser. (Atau jalankan `python3 -m http.server` di folder ini lalu buka `http://localhost:8000`.)
-
-## Publish GitHub Pages
-
-1. Buat repository baru di GitHub, misalnya `data-pribadi`.
-2. Upload 3 file: `index.html`, `app.js`, `README.md` (drag & drop di halaman repo, atau via Git).
-3. Buka **Settings → Pages**.
-4. **Source**: pilih branch `main`, folder `/ (root)`. Save.
-5. Tunggu ~1 menit. URL aplikasi: `https://<username>.github.io/data-pribadi/`
 
 ## Disclaimer
 
